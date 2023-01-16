@@ -2524,6 +2524,13 @@ pre .javascript .function {
 .page-template-container .page-template-content h6:first-child {
   margin-top: 0;
 }
+.page-template-container .page-template-content img {
+  position: relative;
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
 .first-screen-container {
   position: relative;
   box-sizing: border-box;
