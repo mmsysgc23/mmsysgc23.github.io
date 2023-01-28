@@ -2149,12 +2149,12 @@ pre .javascript .function {
   width: 20px;
   height: 20px;
   margin-left: 12px;
-  color: var(--text-color-3);
+  color: var(--text-color-1);
   font-size: 18px;
   cursor: pointer;
 }
 .header-wrapper .header-content .right .mobile .icon-item i {
-  color: var(--text-color-3);
+  color: var(--text-color-1);
 }
 .header-wrapper .header-content .right .mobile .icon-item:first-child {
   margin-left: 0;
@@ -2170,10 +2170,10 @@ pre .javascript .function {
   position: relative;
   width: 18px;
   height: 2.5px;
-  background: var(--text-color-3);
+  background: var(--text-color-1);
 }
 .header-drawer-show .header-wrapper .header-content .right .mobile .menu-bar .menu-bar-middle {
-  background: transparent;
+  background: #50505c;
 }
 .header-wrapper .header-content .right .mobile .menu-bar .menu-bar-middle::before,
 .header-wrapper .header-content .right .mobile .menu-bar .menu-bar-middle::after {
@@ -2181,7 +2181,7 @@ pre .javascript .function {
   left: 0;
   width: 100%;
   height: 2.5px;
-  background: var(--text-color-3);
+  background: var(--text-color-1);
   content: '';
   transition-delay: 0s, 0s, 0s, 0s, 0s;
   transition-timing-function: ease, ease, ease, ease, ease;
@@ -2207,7 +2207,7 @@ pre .javascript .function {
   z-index: 1002;
   width: 100%;
   padding: 70px 0 20px 0;
-  background: var(--background-color-1);
+  background: #8b0000;
   transform: scaleY(0);
   transform-origin: top;
   transition-delay: 0s, 0s, 0s, 0s, 0s;
@@ -2235,11 +2235,11 @@ pre .javascript .function {
   border-radius: 20px;
 }
 .header-wrapper .header-drawer .drawer-menu-list .drawer-menu-item a:hover {
-  color: var(--text-color-2);
+  color: var(--text-color-1);
   border: 1px solid var(--text-color-1);
 }
 .header-wrapper .header-drawer .drawer-menu-list .drawer-menu-item a.active {
-  color: var(--text-color-2);
+  color: var(--text-color-1);
   border: 1px solid var(--text-color-1);
 }
 .header-wrapper .window-mask {
