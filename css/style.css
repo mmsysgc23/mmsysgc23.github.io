@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #f00;
-  --primary-color-light-1: #ff1a1a;
-  --primary-color-light-2: #f33;
-  --primary-color-dark-1: #e60000;
-  --primary-color-dark-2: #c00;
+  --primary-color: #1e90ff;
+  --primary-color-light-1: #359bff;
+  --primary-color-light-2: #4ba6ff;
+  --primary-color-dark-1: #0182ff;
+  --primary-color-dark-2: #0074e4;
   --background-color-1: #fff;
   --background-color-2: #f7f7f7;
   --background-color-3: #f0f0f0;
@@ -18,25 +18,25 @@
   --badge-color: #f0f0f0;
   --badge-background-color: #9393a1;
   --border-color: #b3b3b3;
-  --selection-color: #ff1a1a;
+  --selection-color: #359bff;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.3);
   --scrollbar-color: #60606e;
   --scrollbar-background-color: #e6e6e6;
   --toc-scrollbar-color: rgba(80,80,92,0.1);
   --copyright-info-color: #c03;
-  --avatar-background-color: #e60000;
+  --avatar-background-color: #0182ff;
   --header-transparent-background-1: rgba(255,255,255,0.28);
   --header-transparent-background-2: rgba(255,255,255,0.58);
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --primary-color: #f00;
-    --primary-color-light-1: #ff1a1a;
-    --primary-color-light-2: #f33;
-    --primary-color-dark-1: #e60000;
-    --primary-color-dark-2: #c00;
+    --primary-color: #1e90ff;
+    --primary-color-light-1: #359bff;
+    --primary-color-light-2: #4ba6ff;
+    --primary-color-dark-1: #0182ff;
+    --primary-color-dark-2: #0074e4;
     --background-color-1: #fff;
     --background-color-2: #f7f7f7;
     --background-color-3: #f0f0f0;
@@ -51,14 +51,14 @@
     --badge-color: #f0f0f0;
     --badge-background-color: #9393a1;
     --border-color: #b3b3b3;
-    --selection-color: #ff1a1a;
+    --selection-color: #359bff;
     --shadow-color: rgba(0,0,0,0.2);
     --shadow-hover-color: rgba(0,0,0,0.3);
     --scrollbar-color: #60606e;
     --scrollbar-background-color: #e6e6e6;
     --toc-scrollbar-color: rgba(80,80,92,0.1);
     --copyright-info-color: #c03;
-    --avatar-background-color: #e60000;
+    --avatar-background-color: #0182ff;
     --header-transparent-background-1: rgba(255,255,255,0.28);
     --header-transparent-background-2: rgba(255,255,255,0.58);
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
@@ -66,11 +66,11 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-color: #f00;
-    --primary-color-light-1: #ff1a1a;
-    --primary-color-light-2: #f33;
-    --primary-color-dark-1: #e60000;
-    --primary-color-dark-2: #c00;
+    --primary-color: #1e90ff;
+    --primary-color-light-1: #359bff;
+    --primary-color-light-2: #4ba6ff;
+    --primary-color-dark-1: #0182ff;
+    --primary-color-dark-2: #0074e4;
     --background-color-1: #383940;
     --background-color-2: #3d3f46;
     --background-color-3: #43444c;
@@ -85,25 +85,25 @@
     --badge-color: #4a4c55;
     --badge-background-color: #d8d8dd;
     --border-color: #6f717e;
-    --selection-color: #e10000;
+    --selection-color: #007cf6;
     --shadow-color: rgba(128,128,128,0.2);
     --shadow-hover-color: rgba(128,128,128,0.28);
     --scrollbar-color: #32333a;
     --scrollbar-background-color: #5c5e6a;
     --toc-scrollbar-color: rgba(190,190,198,0.1);
     --copyright-info-color: #a30029;
-    --avatar-background-color: #b80000;
+    --avatar-background-color: #0068cd;
     --header-transparent-background-1: rgba(56,57,64,0.28);
     --header-transparent-background-2: rgba(56,57,64,0.58);
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
   }
 }
 .light-mode {
-  --primary-color: #f00;
-  --primary-color-light-1: #ff1a1a;
-  --primary-color-light-2: #f33;
-  --primary-color-dark-1: #e60000;
-  --primary-color-dark-2: #c00;
+  --primary-color: #1e90ff;
+  --primary-color-light-1: #359bff;
+  --primary-color-light-2: #4ba6ff;
+  --primary-color-dark-1: #0182ff;
+  --primary-color-dark-2: #0074e4;
   --background-color-1: #fff;
   --background-color-2: #f7f7f7;
   --background-color-3: #f0f0f0;
@@ -118,24 +118,24 @@
   --badge-color: #f0f0f0;
   --badge-background-color: #9393a1;
   --border-color: #b3b3b3;
-  --selection-color: #ff1a1a;
+  --selection-color: #359bff;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.3);
   --scrollbar-color: #60606e;
   --scrollbar-background-color: #e6e6e6;
   --toc-scrollbar-color: rgba(80,80,92,0.1);
   --copyright-info-color: #c03;
-  --avatar-background-color: #e60000;
+  --avatar-background-color: #0182ff;
   --header-transparent-background-1: rgba(255,255,255,0.28);
   --header-transparent-background-2: rgba(255,255,255,0.58);
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
 }
 .dark-mode {
-  --primary-color: #f00;
-  --primary-color-light-1: #ff1a1a;
-  --primary-color-light-2: #f33;
-  --primary-color-dark-1: #e60000;
-  --primary-color-dark-2: #c00;
+  --primary-color: #1e90ff;
+  --primary-color-light-1: #359bff;
+  --primary-color-light-2: #4ba6ff;
+  --primary-color-dark-1: #0182ff;
+  --primary-color-dark-2: #0074e4;
   --background-color-1: #383940;
   --background-color-2: #3d3f46;
   --background-color-3: #43444c;
@@ -150,14 +150,14 @@
   --badge-color: #4a4c55;
   --badge-background-color: #d8d8dd;
   --border-color: #6f717e;
-  --selection-color: #e10000;
+  --selection-color: #007cf6;
   --shadow-color: rgba(128,128,128,0.2);
   --shadow-hover-color: rgba(128,128,128,0.28);
   --scrollbar-color: #32333a;
   --scrollbar-background-color: #5c5e6a;
   --toc-scrollbar-color: rgba(190,190,198,0.1);
   --copyright-info-color: #a30029;
-  --avatar-background-color: #b80000;
+  --avatar-background-color: #0068cd;
   --header-transparent-background-1: rgba(56,57,64,0.28);
   --header-transparent-background-2: rgba(56,57,64,0.58);
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -409,7 +409,7 @@ a:active span {
 img[lazyload] {
   position: relative;
   box-sizing: border-box;
-  width: 8rem;
+  width: 100%;
   height: 8rem;
   box-shadow: none !important;
   cursor: not-allowed;
@@ -610,7 +610,7 @@ button {
   margin-left: auto;
   padding: 15px 30px;
   border: none;
-  background-color: #f00;
+  background-color: #1e90ff;
   color: #fff;
   border-radius: 6px;
   cursor: pointer;
@@ -836,11 +836,11 @@ button {
   background-color: var(--background-color-2);
 }
 :root {
-  --primary-color: #f00;
-  --primary-color-light-1: #ff1a1a;
-  --primary-color-light-2: #f33;
-  --primary-color-dark-1: #e60000;
-  --primary-color-dark-2: #c00;
+  --primary-color: #1e90ff;
+  --primary-color-light-1: #359bff;
+  --primary-color-light-2: #4ba6ff;
+  --primary-color-dark-1: #0182ff;
+  --primary-color-dark-2: #0074e4;
   --background-color-1: #fff;
   --background-color-2: #f7f7f7;
   --background-color-3: #f0f0f0;
@@ -855,25 +855,25 @@ button {
   --badge-color: #f0f0f0;
   --badge-background-color: #9393a1;
   --border-color: #b3b3b3;
-  --selection-color: #ff1a1a;
+  --selection-color: #359bff;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.3);
   --scrollbar-color: #60606e;
   --scrollbar-background-color: #e6e6e6;
   --toc-scrollbar-color: rgba(80,80,92,0.1);
   --copyright-info-color: #c03;
-  --avatar-background-color: #e60000;
+  --avatar-background-color: #0182ff;
   --header-transparent-background-1: rgba(255,255,255,0.28);
   --header-transparent-background-2: rgba(255,255,255,0.58);
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --primary-color: #f00;
-    --primary-color-light-1: #ff1a1a;
-    --primary-color-light-2: #f33;
-    --primary-color-dark-1: #e60000;
-    --primary-color-dark-2: #c00;
+    --primary-color: #1e90ff;
+    --primary-color-light-1: #359bff;
+    --primary-color-light-2: #4ba6ff;
+    --primary-color-dark-1: #0182ff;
+    --primary-color-dark-2: #0074e4;
     --background-color-1: #fff;
     --background-color-2: #f7f7f7;
     --background-color-3: #f0f0f0;
@@ -888,14 +888,14 @@ button {
     --badge-color: #f0f0f0;
     --badge-background-color: #9393a1;
     --border-color: #b3b3b3;
-    --selection-color: #ff1a1a;
+    --selection-color: #359bff;
     --shadow-color: rgba(0,0,0,0.2);
     --shadow-hover-color: rgba(0,0,0,0.3);
     --scrollbar-color: #60606e;
     --scrollbar-background-color: #e6e6e6;
     --toc-scrollbar-color: rgba(80,80,92,0.1);
     --copyright-info-color: #c03;
-    --avatar-background-color: #e60000;
+    --avatar-background-color: #0182ff;
     --header-transparent-background-1: rgba(255,255,255,0.28);
     --header-transparent-background-2: rgba(255,255,255,0.58);
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
@@ -903,11 +903,11 @@ button {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-color: #f00;
-    --primary-color-light-1: #ff1a1a;
-    --primary-color-light-2: #f33;
-    --primary-color-dark-1: #e60000;
-    --primary-color-dark-2: #c00;
+    --primary-color: #1e90ff;
+    --primary-color-light-1: #359bff;
+    --primary-color-light-2: #4ba6ff;
+    --primary-color-dark-1: #0182ff;
+    --primary-color-dark-2: #0074e4;
     --background-color-1: #383940;
     --background-color-2: #3d3f46;
     --background-color-3: #43444c;
@@ -922,25 +922,25 @@ button {
     --badge-color: #4a4c55;
     --badge-background-color: #d8d8dd;
     --border-color: #6f717e;
-    --selection-color: #e10000;
+    --selection-color: #007cf6;
     --shadow-color: rgba(128,128,128,0.2);
     --shadow-hover-color: rgba(128,128,128,0.28);
     --scrollbar-color: #32333a;
     --scrollbar-background-color: #5c5e6a;
     --toc-scrollbar-color: rgba(190,190,198,0.1);
     --copyright-info-color: #a30029;
-    --avatar-background-color: #b80000;
+    --avatar-background-color: #0068cd;
     --header-transparent-background-1: rgba(56,57,64,0.28);
     --header-transparent-background-2: rgba(56,57,64,0.58);
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
   }
 }
 .light-mode {
-  --primary-color: #f00;
-  --primary-color-light-1: #ff1a1a;
-  --primary-color-light-2: #f33;
-  --primary-color-dark-1: #e60000;
-  --primary-color-dark-2: #c00;
+  --primary-color: #1e90ff;
+  --primary-color-light-1: #359bff;
+  --primary-color-light-2: #4ba6ff;
+  --primary-color-dark-1: #0182ff;
+  --primary-color-dark-2: #0074e4;
   --background-color-1: #fff;
   --background-color-2: #f7f7f7;
   --background-color-3: #f0f0f0;
@@ -955,24 +955,24 @@ button {
   --badge-color: #f0f0f0;
   --badge-background-color: #9393a1;
   --border-color: #b3b3b3;
-  --selection-color: #ff1a1a;
+  --selection-color: #359bff;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.3);
   --scrollbar-color: #60606e;
   --scrollbar-background-color: #e6e6e6;
   --toc-scrollbar-color: rgba(80,80,92,0.1);
   --copyright-info-color: #c03;
-  --avatar-background-color: #e60000;
+  --avatar-background-color: #0182ff;
   --header-transparent-background-1: rgba(255,255,255,0.28);
   --header-transparent-background-2: rgba(255,255,255,0.58);
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
 }
 .dark-mode {
-  --primary-color: #f00;
-  --primary-color-light-1: #ff1a1a;
-  --primary-color-light-2: #f33;
-  --primary-color-dark-1: #e60000;
-  --primary-color-dark-2: #c00;
+  --primary-color: #1e90ff;
+  --primary-color-light-1: #359bff;
+  --primary-color-light-2: #4ba6ff;
+  --primary-color-dark-1: #0182ff;
+  --primary-color-dark-2: #0074e4;
   --background-color-1: #383940;
   --background-color-2: #3d3f46;
   --background-color-3: #43444c;
@@ -987,14 +987,14 @@ button {
   --badge-color: #4a4c55;
   --badge-background-color: #d8d8dd;
   --border-color: #6f717e;
-  --selection-color: #e10000;
+  --selection-color: #007cf6;
   --shadow-color: rgba(128,128,128,0.2);
   --shadow-hover-color: rgba(128,128,128,0.28);
   --scrollbar-color: #32333a;
   --scrollbar-background-color: #5c5e6a;
   --toc-scrollbar-color: rgba(190,190,198,0.1);
   --copyright-info-color: #a30029;
-  --avatar-background-color: #b80000;
+  --avatar-background-color: #0068cd;
   --header-transparent-background-1: rgba(56,57,64,0.28);
   --header-transparent-background-2: rgba(56,57,64,0.58);
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -1375,11 +1375,11 @@ pre .javascript .function {
   height: 0;
 }
 :root {
-  --primary-color: #f00;
-  --primary-color-light-1: #ff1a1a;
-  --primary-color-light-2: #f33;
-  --primary-color-dark-1: #e60000;
-  --primary-color-dark-2: #c00;
+  --primary-color: #1e90ff;
+  --primary-color-light-1: #359bff;
+  --primary-color-light-2: #4ba6ff;
+  --primary-color-dark-1: #0182ff;
+  --primary-color-dark-2: #0074e4;
   --background-color-1: #fff;
   --background-color-2: #f7f7f7;
   --background-color-3: #f0f0f0;
@@ -1394,25 +1394,25 @@ pre .javascript .function {
   --badge-color: #f0f0f0;
   --badge-background-color: #9393a1;
   --border-color: #b3b3b3;
-  --selection-color: #ff1a1a;
+  --selection-color: #359bff;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.3);
   --scrollbar-color: #60606e;
   --scrollbar-background-color: #e6e6e6;
   --toc-scrollbar-color: rgba(80,80,92,0.1);
   --copyright-info-color: #c03;
-  --avatar-background-color: #e60000;
+  --avatar-background-color: #0182ff;
   --header-transparent-background-1: rgba(255,255,255,0.28);
   --header-transparent-background-2: rgba(255,255,255,0.58);
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --primary-color: #f00;
-    --primary-color-light-1: #ff1a1a;
-    --primary-color-light-2: #f33;
-    --primary-color-dark-1: #e60000;
-    --primary-color-dark-2: #c00;
+    --primary-color: #1e90ff;
+    --primary-color-light-1: #359bff;
+    --primary-color-light-2: #4ba6ff;
+    --primary-color-dark-1: #0182ff;
+    --primary-color-dark-2: #0074e4;
     --background-color-1: #fff;
     --background-color-2: #f7f7f7;
     --background-color-3: #f0f0f0;
@@ -1427,14 +1427,14 @@ pre .javascript .function {
     --badge-color: #f0f0f0;
     --badge-background-color: #9393a1;
     --border-color: #b3b3b3;
-    --selection-color: #ff1a1a;
+    --selection-color: #359bff;
     --shadow-color: rgba(0,0,0,0.2);
     --shadow-hover-color: rgba(0,0,0,0.3);
     --scrollbar-color: #60606e;
     --scrollbar-background-color: #e6e6e6;
     --toc-scrollbar-color: rgba(80,80,92,0.1);
     --copyright-info-color: #c03;
-    --avatar-background-color: #e60000;
+    --avatar-background-color: #0182ff;
     --header-transparent-background-1: rgba(255,255,255,0.28);
     --header-transparent-background-2: rgba(255,255,255,0.58);
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
@@ -1442,11 +1442,11 @@ pre .javascript .function {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-color: #f00;
-    --primary-color-light-1: #ff1a1a;
-    --primary-color-light-2: #f33;
-    --primary-color-dark-1: #e60000;
-    --primary-color-dark-2: #c00;
+    --primary-color: #1e90ff;
+    --primary-color-light-1: #359bff;
+    --primary-color-light-2: #4ba6ff;
+    --primary-color-dark-1: #0182ff;
+    --primary-color-dark-2: #0074e4;
     --background-color-1: #383940;
     --background-color-2: #3d3f46;
     --background-color-3: #43444c;
@@ -1461,25 +1461,25 @@ pre .javascript .function {
     --badge-color: #4a4c55;
     --badge-background-color: #d8d8dd;
     --border-color: #6f717e;
-    --selection-color: #e10000;
+    --selection-color: #007cf6;
     --shadow-color: rgba(128,128,128,0.2);
     --shadow-hover-color: rgba(128,128,128,0.28);
     --scrollbar-color: #32333a;
     --scrollbar-background-color: #5c5e6a;
     --toc-scrollbar-color: rgba(190,190,198,0.1);
     --copyright-info-color: #a30029;
-    --avatar-background-color: #b80000;
+    --avatar-background-color: #0068cd;
     --header-transparent-background-1: rgba(56,57,64,0.28);
     --header-transparent-background-2: rgba(56,57,64,0.58);
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
   }
 }
 .light-mode {
-  --primary-color: #f00;
-  --primary-color-light-1: #ff1a1a;
-  --primary-color-light-2: #f33;
-  --primary-color-dark-1: #e60000;
-  --primary-color-dark-2: #c00;
+  --primary-color: #1e90ff;
+  --primary-color-light-1: #359bff;
+  --primary-color-light-2: #4ba6ff;
+  --primary-color-dark-1: #0182ff;
+  --primary-color-dark-2: #0074e4;
   --background-color-1: #fff;
   --background-color-2: #f7f7f7;
   --background-color-3: #f0f0f0;
@@ -1494,24 +1494,24 @@ pre .javascript .function {
   --badge-color: #f0f0f0;
   --badge-background-color: #9393a1;
   --border-color: #b3b3b3;
-  --selection-color: #ff1a1a;
+  --selection-color: #359bff;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.3);
   --scrollbar-color: #60606e;
   --scrollbar-background-color: #e6e6e6;
   --toc-scrollbar-color: rgba(80,80,92,0.1);
   --copyright-info-color: #c03;
-  --avatar-background-color: #e60000;
+  --avatar-background-color: #0182ff;
   --header-transparent-background-1: rgba(255,255,255,0.28);
   --header-transparent-background-2: rgba(255,255,255,0.58);
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
 }
 .dark-mode {
-  --primary-color: #f00;
-  --primary-color-light-1: #ff1a1a;
-  --primary-color-light-2: #f33;
-  --primary-color-dark-1: #e60000;
-  --primary-color-dark-2: #c00;
+  --primary-color: #1e90ff;
+  --primary-color-light-1: #359bff;
+  --primary-color-light-2: #4ba6ff;
+  --primary-color-dark-1: #0182ff;
+  --primary-color-dark-2: #0074e4;
   --background-color-1: #383940;
   --background-color-2: #3d3f46;
   --background-color-3: #43444c;
@@ -1526,14 +1526,14 @@ pre .javascript .function {
   --badge-color: #4a4c55;
   --badge-background-color: #d8d8dd;
   --border-color: #6f717e;
-  --selection-color: #e10000;
+  --selection-color: #007cf6;
   --shadow-color: rgba(128,128,128,0.2);
   --shadow-hover-color: rgba(128,128,128,0.28);
   --scrollbar-color: #32333a;
   --scrollbar-background-color: #5c5e6a;
   --toc-scrollbar-color: rgba(190,190,198,0.1);
   --copyright-info-color: #a30029;
-  --avatar-background-color: #b80000;
+  --avatar-background-color: #0068cd;
   --header-transparent-background-1: rgba(56,57,64,0.28);
   --header-transparent-background-2: rgba(56,57,64,0.58);
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -2096,7 +2096,7 @@ pre .javascript .function {
   width: 100%;
   height: 100%;
   padding-top: 2px;
-  background: #8b0000;
+  background: #0072e3;
   box-shadow: 2px 2px 5px var(--shadow-color);
 }
 .header-wrapper:hover {
@@ -2286,7 +2286,7 @@ pre .javascript .function {
   z-index: 1002;
   width: 100%;
   padding: 70px 0 20px 0;
-  background: #8b0000;
+  background: #0072e3;
   transform: scaleY(0);
   transform-origin: top;
   transition-delay: 0s, 0s, 0s, 0s, 0s;
@@ -2625,7 +2625,7 @@ pre .javascript .function {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: url("/images/layered-peaks-haikei.svg") center center/cover no-repeat;
+  background: url("/images/polygon.svg") center center/cover no-repeat;
   background-position-y: 70px;
 }
 @media (max-width: 800px) {
