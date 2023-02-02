@@ -49,12 +49,75 @@
 
 
 <body>
-<div class="progress-bar-container">
-    
+.progress-bar-container {
+  position fixed
+  top 0
+  left 0
+  z-index $z-index-9
+  width 100%
 
-    
-</div>
+  if (hexo-config('pjax.enable') == true) {
 
+    .pjax-progress-bar {
+      position absolute
+      top 0
+      left 0
+      z-index $z-index-8
+      width 0
+      height 2px
+      background var(--pjax-progress-bar-color)
+      visibility hidden
+      opacity 0
+      transition-t("width, opacity", "0, 0", "0.1, 0.1", "linear")
+
+
+      &.show {
+        visibility visible
+        opacity 1
+      }
+    }
+
+
+    .pjax-progress-icon {
+      position absolute
+      top 0.4rem
+      right 0.3rem
+      z-index $z-index-8
+      color var(--text-color-3)
+      font-size 1.1rem
+      visibility hidden
+
+      +keep-tablet() {
+        top 0.3rem
+        right 0.2rem
+        font-size 1rem
+      }
+
+      &.show {
+        visibility visible
+      }
+    }
+  }
+
+  if (hexo-config('style.scroll.progress_bar') == true) {
+
+    .scroll-progress-bar {
+      position absolute
+      top 0
+      left 0
+      z-index $z-index-7
+      width 0
+      height $scroll-progress-bar-height
+      background var(--primary-color)
+      visibility hidden
+      transition-t("width", "0", "0.1", "linear")
+
+      &.hide {
+        display none !important
+      }
+    }
+  }
+}
 
 <main class="page-container">
 
@@ -193,8 +256,8 @@
         
         <div class="page-template-content keep-markdown-body">
             
-                <h1 id="Participation"><a href="#Participation" class="headerlink" title="Participation"></a><b><span style="color:#1E90FF;">Participation</span></b></h1><p>This challenge is open to any individual, academic or commercial institution. Interested individuals are welcomed participate as a team. Each team can have one or more members (up to 4). Please follow the <a class="link"   href="https://mmsysgc23.github.io/submission/" >guidelines<i class="fas fa-external-link-alt"></i></a> to register first.  Each individual can only be part of one team. The organizers reserve the right to disqualify any participant for misleading information or inappropriate behavior during the challenge. </p>
-<p>At the end of the Challenge, all teams will be ranked based on the evaluation metric score described <a class="link"   href="https://mmsysgc23.github.io/challenge/" >here<i class="fas fa-external-link-alt"></i></a>. The top three performing teams will receive award certificates during the MMSys conference and cash prizes: </p>
+                <h1 id="Participation"><a href="#Participation" class="headerlink" title="Participation"></a><b><span style="color:#1E90FF;">Participation</span></b></h1><p>This challenge is open to any individual, academic or commercial institution (except ByteDance employees). Interested individuals are welcome to participate as a team. Each team can have one or more members (up to 4). Please follow the <a href="https://mmsysgc23.github.io/submission/">guidelines</a> to register first. Each individual can only be part of one team. The organizers reserve the right to disqualify any participant for misleading information or inappropriate behavior during the challenge. </p>
+<p>At the end of the Challenge, all teams will be ranked based on the evaluation metric score described <a href="https://mmsysgc23.github.io/challenge/">here</a>. The top three performing teams will receive award certificates during the MMSys conference and cash prizes: </p>
 <table>
 <thead>
 <tr>
