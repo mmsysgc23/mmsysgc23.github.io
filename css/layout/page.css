@@ -13,6 +13,9 @@ keep-tablet()
 keep-tablet()
 keep-mobile()
 }
+.page-container .page-main-content.is-home {
+  margin-top: -6rem;
+}
 .page-container .page-main-content.is-home .transparent-1 {
   background: var(--header-transparent-background-1);
 }

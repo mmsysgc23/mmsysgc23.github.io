@@ -66,3 +66,8 @@ keep-mobile()
 .home-content-container .home-article-list .home-article-item .home-article-meta-info-container a:hover {
   color: var(--primary-color);
 }
+.home-content-picture {
+  position: relative;
+  box-sizing: border-box;
+  width: 60%;
+}
