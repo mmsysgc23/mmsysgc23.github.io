@@ -207,15 +207,20 @@
         <div class="page-template-content keep-markdown-body">
             
                 <h1 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a><b><span style="color:#1E90FF;">FAQ</span></b></h1><ul>
-<li><p><b>How can I run the code and local environment in an arm architecture?</b></p>
+<li><p><b><span style="color:#1E90FF;">How can I run the code and local environment in an arm architecture?</span></b></p>
 <p>  We provide a lib and servertest in <code>build_for_apple-0.3.tar.gz</code>, which are compiled on Ubuntu 20.04 for arm64 using Apple macbook pro with M2 chip. Note that the provided lib is only compatible with MPD SDK version 0.3. Build with an earlier version may cause downloading failure. You need to copy the files into appropriate locations to replace the corresponding files compiled for x86 platform in the MPD project in order to compile and run tests on Apple silicon. You are recommended to follow the README provided in build_for_apple-0.3.tar.gz for more information.</p>
 </li>
 </ul>
 <p><a href="/download/build_for_apple-0.3.tar.gz"><b class="downloadBtn">build_for_apple-0.3.tar.gz</b></a></p>
 <ul>
-<li><p><b>Why does it take forever for us to receive the test results? </b></p>
+<li><p><b><span style="color:#1E90FF;">Why does it take forever for us to receive the test results? </span></b></p>
 <p>  We apologize for the delay in returning test results. The testing process takes way more effort than expected. The MPD SDK we have provided for mininet deployment is different from the version we use for the online Android based environment. In order to run one test, we have to checkout the submitted code, run security checks, move the algorithm source code to an Android project, compile with the MPD Android SDK to generate the apk, deploy the apk on the test phone and run the test scripts. It turned out the whole process cannot be effectively automated and requires manual processing in most steps at this moment. In some extreme cases (the submitted code fails to download the whole file), each test run may take several hours. We do not have the labor resources to properly handle all the test requests and return the results within the promised time frame. </p>
 <p>  To speed up the testing process, we are working on a set of mininet topologies as well as testing sequences to create a local test platform based on mininet. For all the future test requests, we will first return the results of test locally. <strong>We will continue running tests on the online test platform as our capacity allows but we will prioritize the teams that have not run online test before.</strong> We will also create a separate scoreboard on our website for the mininet test platform.</p>
+</li>
+<li><p><b><span style="color:#1E90FF;">I have noticed the scoreboard has been updated and the scores look very different from the previous version. What is the difference? </span></b></p>
+<p>  Previously, we used the online platform to run all tests and the scoreboard results were based on the average score of running 10 downloading tasks. However, we found out that the test score couldn’t very well indicate the final performance, since the test only runs on one device to download only 10 files.  Those scores from different tests couldn’t be directly compared since the tests ran at different time of the day could easily be affected by the background traffic. Moreover, we explained in the previous question that we were not able to keep up with the growing test demands.  </p>
+<p>  Therefore, we switched to a new method of testing. We test every submission with the same mininet topology, which we believe best simulates the networking environment of most online cases. This new method allows us to quickly generate stable and comparable scores. You can also use the same topology to debug and improve your algorithm.</p>
+<p>  However, please be aware that the final evaluation will still be based on the results of the online platform. We will post details of how we run the final tests soon. Each participating team should submit your code for an online test at least once, especially if you haven’t done so, to make sure your code is compatible with the online platform.</p>
 </li>
 </ul>
 
@@ -231,68 +236,34 @@
     </div>
     
         
-            .waline-comment-container {
-  #waline-comment {
-    --waline-theme-color var(--primary-color)
-    --waline-active-color var(--primary-color-light-1)
-    --waline-color var(--text-color-3)
-    --waline-bgcolor var(--background-color-1)
-    --waline-border-color var(--border-color)
-    --waline-disable-bgcolor var(--background-color-2)
-    --waline-disable-color var(--text-color-3)
-    --waline-code-bgcolor rgba(40, 44, 52, 0.9)
-    --waline-info-bgcolor var(--background-color-3)
-    --waline-info-color var(--text-color-3)
-    --waline-border 1px solid var(--waline-border-color)
+            
 
-    input
-    textarea {
-      position relative
-      box-sizing border-box
-      padding 0.6rem 1rem
-      color var(--text-color-3)
-      background transparent
-      border-radius 0.4rem
-      outline none
+    <div class="waline-comment-container">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.css"/>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline-meta.css"/>
+        <script  src="//cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.js"></script>
+        <div id="waline-comment"></div>
+        <script >
+          function loadWaline() {
+            Waline.init({
+              el: '#waline-comment',
+              serverURL: 'https://gccomment-edooxoymc-mtkawakarpo.vercel.app/',
+              lang: 'en' || 'zh-CN',
+              comment: '.post-comments-count',
+              reaction: 'false' === 'true'
+            })
+          }
 
-      &:hover {
-        background var(--background-color-2)
-      }
-    }
+          if ('false' === 'true') {
+            setTimeout(() => {
+              loadWaline()
+            }, 1000)
+          } else {
+            window.addEventListener('DOMContentLoaded', loadWaline)
+          }
+        </script>
+    </div>
 
-
-    .wl-header {
-      box-sizing border-box
-      padding 0
-    }
-
-
-    button {
-      transition-t("color, background", "0, 0", "0.2, 0.2", "ease, ease")
-    }
-
-    .wl-logout-btn {
-      svg {
-        width 1rem
-        height 1rem
-        path {
-          color var(--background-color-3)
-        }
-      }
-    }
-
-    .wl-panel {
-      border-radius 0.4rem
-    }
-
-    .wl-count
-    .wl-num
-    .wl-preview h4
-    .wl-like span {
-      color var(--text-color-4)
-    }
-  }
-}
 
 
         
