@@ -286,7 +286,19 @@
 <td align="center">0</td>
 </tr>
 </tbody></table>
-<h1 id="Competition-Details"><a href="#Competition-Details" class="headerlink" title="Competition Details"></a>Competition Details</h1><p>we describe how we run the code as follow.</p>
+<h1 id="Final-Evaluation-and-Ranking"><a href="#Final-Evaluation-and-Ranking" class="headerlink" title="Final Evaluation and Ranking"></a>Final Evaluation and Ranking</h1><p>We will integrate the submitted algorithm with an Android downloader program, generate the APK, and evaluate the algorithm performance using our online testing platform. We have selected 8 different Android devices to deploy all candidate APKs and run downloading tasks. For each task, all candidate APKs will be brought up sequentially for execution, and the adjusted speed score will be reported after the APK completes or fails the downloading task. We do not run more than one downloading task simultaneously in the same LAN. </p>
+<p>We plan to run several rounds of tests and eliminate bottom ranking teams each round. For each round, we will run 30~50 downloading tasks on each Android device for all candidates. We rank all candidates based on the mean value of all collected adjusted speed scores. If two teams have close scores (within 3%), we determine their ranking based on the following rules: </p>
+<ol>
+<li><p>The team with less failed tasks (zero score) ranks higher;</p>
+</li>
+<li><p>For each Android device, determine the winner of two teams based on the mean score of all tasks running on this device. The team wins more devices ranks higher;</p>
+</li>
+<li><p>For each downloading task, determine the winner of two teams based on the reported adjusted speed score. The team wins more tasks ranks higher;</p>
+</li>
+<li><p>The team with less standard deviation value ranks higher.</p>
+</li>
+</ol>
+<p>Please note that we will only publish adjusted speed scores for all downloading tasks. Our current system does not allow us to retrieve all trace files in large-scale testing. </p>
 
             
         </div>
