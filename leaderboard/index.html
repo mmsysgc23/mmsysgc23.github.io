@@ -206,7 +206,9 @@
         
         <div class="page-template-content keep-markdown-body">
             
-                <h1 id="Final-Result"><a href="#Final-Result" class="headerlink" title="Final Result"></a>Final Result</h1><table>
+                <h1 id="Final-Evaluation-and-Ranking"><a href="#Final-Evaluation-and-Ranking" class="headerlink" title="Final Evaluation and Ranking"></a>Final Evaluation and Ranking</h1><p>We will integrate the submitted algorithm with an Android downloader program, generate the APK, and evaluate the algorithm performance using our online testing platform. We have selected 8 different Android devices to deploy all candidate APKs and run downloading tasks. For each task, all candidate APKs will be brought up sequentially for execution, and the adjusted speed score will be reported after the APK completes or fails the downloading task. We do not run more than one downloading task simultaneously in the same LAN. </p>
+<p>We plan to run several rounds of tests and eliminate bottom ranking teams each round. For each round, we will run 30~50 downloading tasks on each Android device for all candidates. We rank all candidates based on the mean value of all collected adjusted speed scores. If two teams have close scores (within 3%), we determine their ranking based on the following rules:<br>    1. The team with less failed tasks (zero score) ranks higher;<br>    2. For each Android device, determine the winner of two teams based on the mean score of all tasks running on this device. The team wins more devices ranks higher;<br>    3. For each downloading task, determine the winner of two teams based on the reported adjusted speed score. The team wins more tasks ranks higher;<br>    4. The team with less standard deviation value ranks higher. </p>
+<h2 id="Final-Result"><a href="#Final-Result" class="headerlink" title="Final Result"></a>Final Result</h2><table>
 <thead>
 <tr>
 <th align="center">Rank</th>
@@ -226,7 +228,394 @@
 <td align="center">INSTU</td>
 </tr>
 </tbody></table>
-<h1 id="Testing-Result"><a href="#Testing-Result" class="headerlink" title="Testing Result"></a>Testing Result</h1><table>
+<p>We have received 13 final submissions but could only successfully compile 12 of them. We deployed all compiled APKs to 8 Android phones (Phones are physically located in different cities all over China. 4 of them use WiFi and 4 of them use 4G&#x2F;LTE networks) for the final test. </p>
+<h3 id="Round-1"><a href="#Round-1" class="headerlink" title="Round 1:"></a>Round 1:</h3><p>Each APK ran 148 times and our server was able to record 128 scores for most teams. We include the demo we provided in the test as well. You can download all the data here. The last three teams were eliminated from this round. </p>
+<table>
+<thead>
+<tr>
+<th align="center">Team</th>
+<th align="center">Task Count</th>
+<th align="center">Score (&gt;0) records</th>
+<th align="center">Min Score</th>
+<th align="center">Max Score</th>
+<th align="center">Avg Score</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Team</td>
+<td align="center">Task count</td>
+<td align="center">Score (&gt;0) records</td>
+<td align="center">Min score</td>
+<td align="center">Max score</td>
+<td align="center">Avg score</td>
+</tr>
+<tr>
+<td align="center">xiaoxuesheng</td>
+<td align="center">148</td>
+<td align="center">127</td>
+<td align="center">114.412878</td>
+<td align="center">1950.167135</td>
+<td align="center">1272.623973</td>
+</tr>
+<tr>
+<td align="center">TXPlayer</td>
+<td align="center">148</td>
+<td align="center">128</td>
+<td align="center">246.2465399</td>
+<td align="center">1970.585926</td>
+<td align="center">1221.077434</td>
+</tr>
+<tr>
+<td align="center">INSTU</td>
+<td align="center">148</td>
+<td align="center">128</td>
+<td align="center">128.4536234</td>
+<td align="center">1675.648733</td>
+<td align="center">1171.912441</td>
+</tr>
+<tr>
+<td align="center">DEMO</td>
+<td align="center">148</td>
+<td align="center">128</td>
+<td align="center">264.8107036</td>
+<td align="center">1602.687507</td>
+<td align="center">1052.34288</td>
+</tr>
+<tr>
+<td align="center">NMSL_group2</td>
+<td align="center">148</td>
+<td align="center">128</td>
+<td align="center">268.8068118</td>
+<td align="center">1471.93943</td>
+<td align="center">940.4113126</td>
+</tr>
+<tr>
+<td align="center">MMMM</td>
+<td align="center">148</td>
+<td align="center">128</td>
+<td align="center">251.2427407</td>
+<td align="center">1512.458433</td>
+<td align="center">932.579818</td>
+</tr>
+<tr>
+<td align="center">MulNet</td>
+<td align="center">148</td>
+<td align="center">128</td>
+<td align="center">222.9931111</td>
+<td align="center">1482.494691</td>
+<td align="center">875.4911533</td>
+</tr>
+<tr>
+<td align="center">room111</td>
+<td align="center">148</td>
+<td align="center">128</td>
+<td align="center">76.64059117</td>
+<td align="center">1350.569942</td>
+<td align="center">836.2303507</td>
+</tr>
+<tr>
+<td align="center">NMSL@NTHU</td>
+<td align="center">148</td>
+<td align="center">126</td>
+<td align="center">113.5114793</td>
+<td align="center">1451.561094</td>
+<td align="center">818.2252203</td>
+</tr>
+<tr>
+<td align="center">Sky</td>
+<td align="center">148</td>
+<td align="center">125</td>
+<td align="center">34.53533982</td>
+<td align="center">1423.486753</td>
+<td align="center">688.7310533</td>
+</tr>
+<tr>
+<td align="center">No.1</td>
+<td align="center">148</td>
+<td align="center">71</td>
+<td align="center">539.3448576</td>
+<td align="center">798.3221514</td>
+<td align="center">682.8517382</td>
+</tr>
+<tr>
+<td align="center">FluxPilot</td>
+<td align="center">148</td>
+<td align="center">96</td>
+<td align="center">104.1978591</td>
+<td align="center">1064.382236</td>
+<td align="center">651.1503677</td>
+</tr>
+<tr>
+<td align="center">NMSL_group7</td>
+<td align="center">148</td>
+<td align="center">43</td>
+<td align="center">41.75271941</td>
+<td align="center">587.641261</td>
+<td align="center">340.510378</td>
+</tr>
+</tbody></table>
+<h3 id="Round-2"><a href="#Round-2" class="headerlink" title="Round 2:"></a>Round 2:</h3><p>The remaining 10 APKs (including DEMO) ran 240 tasks each and you can download all the data here. Top three teams advanced to the final round. Top three teams advanced to the final round. </p>
+<table>
+<thead>
+<tr>
+<th align="center">Team</th>
+<th align="center">Task Count</th>
+<th align="center">Score (&gt;0) records</th>
+<th align="center">Min Score</th>
+<th align="center">Max Score</th>
+<th align="center">Avg Score</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">xiaoxuesheng</td>
+<td align="center">240</td>
+<td align="center">195	89.53202734</td>
+<td align="center">1930.681738</td>
+<td align="center">1269.490609</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">TXPlayer</td>
+<td align="center">240</td>
+<td align="center">204	85.18879412</td>
+<td align="center">1977.663221</td>
+<td align="center">1159.407717</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">INSTU</td>
+<td align="center">240</td>
+<td align="center">204</td>
+<td align="center">96.92438998</td>
+<td align="center">1681.965324</td>
+<td align="center">1153.277515</td>
+</tr>
+<tr>
+<td align="center">DEMO</td>
+<td align="center">240</td>
+<td align="center">203</td>
+<td align="center">89.86292933</td>
+<td align="center">1607.893248</td>
+<td align="center">1041.513736</td>
+</tr>
+<tr>
+<td align="center">MMMM</td>
+<td align="center">240</td>
+<td align="center">202</td>
+<td align="center">96.01323335</td>
+<td align="center">1517.081089</td>
+<td align="center">916.6911574</td>
+</tr>
+<tr>
+<td align="center">NMSL_group2</td>
+<td align="center">240</td>
+<td align="center">202</td>
+<td align="center">112.9813088</td>
+<td align="center">1476.552803</td>
+<td align="center">911.2285605</td>
+</tr>
+<tr>
+<td align="center">MulNet</td>
+<td align="center">240</td>
+<td align="center">202</td>
+<td align="center">91.83145281</td>
+<td align="center">1456.555253</td>
+<td align="center">834.4653118</td>
+</tr>
+<tr>
+<td align="center">room111</td>
+<td align="center">240</td>
+<td align="center">202</td>
+<td align="center">84.31457545</td>
+<td align="center">1355.034146</td>
+<td align="center">825.2817214</td>
+</tr>
+<tr>
+<td align="center">NMSL@NTHU</td>
+<td align="center">240</td>
+<td align="center">200</td>
+<td align="center">97.91364108</td>
+<td align="center">1441.56076</td>
+<td align="center">818.5021431</td>
+</tr>
+<tr>
+<td align="center">Sky</td>
+<td align="center">240</td>
+<td align="center">197</td>
+<td align="center">24.09233687</td>
+<td align="center">1352.167074</td>
+<td align="center">715.0363252</td>
+</tr>
+</tbody></table>
+<h3 id="Round-3"><a href="#Round-3" class="headerlink" title="Round 3:"></a>Round 3:</h3><p>Top three teams together with our own product version MPD algorithm ran 400 tasks each. You can download all the data here.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Team</th>
+<th align="center">Task Count</th>
+<th align="center">Score (&gt;0) records</th>
+<th align="center">Min Score</th>
+<th align="center">Max Score</th>
+<th align="center">Avg Score</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">xiaoxuesheng</td>
+<td align="center">400</td>
+<td align="center">346</td>
+<td align="center">51.36871514</td>
+<td align="center">1916.085915</td>
+<td align="center">1268.207113</td>
+</tr>
+<tr>
+<td align="center">TXPlayer</td>
+<td align="center">400</td>
+<td align="center">346</td>
+<td align="center">240.4325518</td>
+<td align="center">1993.744047</td>
+<td align="center">1233.827058</td>
+</tr>
+<tr>
+<td align="center">INSTU</td>
+<td align="center">400</td>
+<td align="center">347</td>
+<td align="center">228.399949</td>
+<td align="center">1723.10045</td>
+<td align="center">1167.134425</td>
+</tr>
+</tbody></table>
+<p>Since the scores of team xiaoxuesheng and team TXPlayer are too close (&lt;3%), we ran further analysis according to the preset rules: </p>
+<ol>
+<li>The team with less failed tasks (zero score) ranks higher. Both teams recorded 346 non zero scores in the final round. We did notice that team xiaoxuesheng has one zero score record while team TXPlayer has no zero score record. However, from the available dataset we were not able to determine whether the zero score was caused by device issues or algorithm itself. Thus we call it a tie. </li>
+<li>For each Android device, determine the winner of two teams based on the mean score of all tasks running on this device. The team wins more devices ranks higher. Each team wins 4 devics, still a tie.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="center">ip</th>
+<th align="center">team</th>
+<th align="center">min_value</th>
+<th align="center">max_value</th>
+<th align="center">avg_value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">113.127.171.13</td>
+<td align="center">xiaoxuesheng</td>
+<td align="center">51.36871514</td>
+<td align="center">723.4108511</td>
+<td align="center">509.2199907</td>
+</tr>
+<tr>
+<td align="center">113.127.171.13</td>
+<td align="center">TXPlayer</td>
+<td align="center">240.4325518</td>
+<td align="center">723.3992193</td>
+<td align="center">495.8793279</td>
+</tr>
+<tr>
+<td align="center">116.169.10.146</td>
+<td align="center">xiaoxuesheng</td>
+<td align="center">352.4413294</td>
+<td align="center">1916.085915</td>
+<td align="center">1818.541114</td>
+</tr>
+<tr>
+<td align="center">116.169.10.146</td>
+<td align="center">TXPlayer</td>
+<td align="center">1367.346432</td>
+<td align="center">1721.554671</td>
+<td align="center">1642.747679</td>
+</tr>
+<tr>
+<td align="center">122.96.92.18</td>
+<td align="center">TXPlayer</td>
+<td align="center">830.2975927</td>
+<td align="center">1976.606553</td>
+<td align="center">1584.820381</td>
+</tr>
+<tr>
+<td align="center">122.96.92.18</td>
+<td align="center">xiaoxuesheng</td>
+<td align="center">1158.014799</td>
+<td align="center">1780.223112</td>
+<td align="center">1422.207348</td>
+</tr>
+<tr>
+<td align="center">211.95.47.98</td>
+<td align="center">TXPlayer</td>
+<td align="center">871.7894098</td>
+<td align="center">1086.196479</td>
+<td align="center">1024.077071</td>
+</tr>
+<tr>
+<td align="center">211.95.47.98</td>
+<td align="center">xiaoxuesheng</td>
+<td align="center">469.309745</td>
+<td align="center">1080.654387</td>
+<td align="center">988.0524434</td>
+</tr>
+<tr>
+<td align="center">218.107.37.35</td>
+<td align="center">xiaoxuesheng</td>
+<td align="center">844.8520962</td>
+<td align="center">1163.002314</td>
+<td align="center">1035.053492</td>
+</tr>
+<tr>
+<td align="center">218.107.37.35</td>
+<td align="center">TXPlayer</td>
+<td align="center">567.3461547</td>
+<td align="center">1026.405262</td>
+<td align="center">877.7089772</td>
+</tr>
+<tr>
+<td align="center">36.152.144.178</td>
+<td align="center">TXPlayer</td>
+<td align="center">1011.209378</td>
+<td align="center">1993.744047</td>
+<td align="center">1607.971646</td>
+</tr>
+<tr>
+<td align="center">36.152.144.178</td>
+<td align="center">xiaoxuesheng</td>
+<td align="center">-1</td>
+<td align="center">1785.724251</td>
+<td align="center">1278.882504</td>
+</tr>
+<tr>
+<td align="center">58.243.250.18</td>
+<td align="center">TXPlayer</td>
+<td align="center">1215.803739</td>
+<td align="center">1611.896298</td>
+<td align="center">1485.292093</td>
+</tr>
+<tr>
+<td align="center">58.243.250.18</td>
+<td align="center">xiaoxuesheng</td>
+<td align="center">1296.026994</td>
+<td align="center">1579.795892</td>
+<td align="center">1452.970355</td>
+</tr>
+<tr>
+<td align="center">61.242.134.185</td>
+<td align="center">xiaoxuesheng</td>
+<td align="center">1466.299325</td>
+<td align="center">1842.628048</td>
+<td align="center">1740.300587</td>
+</tr>
+<tr>
+<td align="center">61.242.134.185</td>
+<td align="center">TXPlayer</td>
+<td align="center">1377.054083</td>
+<td align="center">1615.514492</td>
+<td align="center">1532.490321</td>
+</tr>
+</tbody></table>
+<ol start="3">
+<li>For each downloading task, determine the winner of two teams based on the reported adjusted speed score. The team wins more tasks ranks higher. In this round, the execution sequence for each task was set to random. We sorted the score records based on the timestamp and chose adjacent scores for head to head comparison. Team xiaoxuesheng wins 221 of 335 head to head comparisons.</li>
+</ol>
+<h2 id="Testing-Result"><a href="#Testing-Result" class="headerlink" title="Testing Result"></a>Testing Result</h2><table>
 <thead>
 <tr>
 <th align="center">Rank</th>
@@ -290,19 +679,6 @@
 <td align="center">0</td>
 </tr>
 </tbody></table>
-<h1 id="Final-Evaluation-and-Ranking"><a href="#Final-Evaluation-and-Ranking" class="headerlink" title="Final Evaluation and Ranking"></a>Final Evaluation and Ranking</h1><p>We will integrate the submitted algorithm with an Android downloader program, generate the APK, and evaluate the algorithm performance using our online testing platform. We have selected 8 different Android devices to deploy all candidate APKs and run downloading tasks. For each task, all candidate APKs will be brought up sequentially for execution, and the adjusted speed score will be reported after the APK completes or fails the downloading task. We do not run more than one downloading task simultaneously in the same LAN. </p>
-<p>We plan to run several rounds of tests and eliminate bottom ranking teams each round. For each round, we will run 30~50 downloading tasks on each Android device for all candidates. We rank all candidates based on the mean value of all collected adjusted speed scores. If two teams have close scores (within 3%), we determine their ranking based on the following rules: </p>
-<ol>
-<li><p>The team with less failed tasks (zero score) ranks higher;</p>
-</li>
-<li><p>For each Android device, determine the winner of two teams based on the mean score of all tasks running on this device. The team wins more devices ranks higher;</p>
-</li>
-<li><p>For each downloading task, determine the winner of two teams based on the reported adjusted speed score. The team wins more tasks ranks higher;</p>
-</li>
-<li><p>The team with less standard deviation value ranks higher.</p>
-</li>
-</ol>
-<p>Please note that we will only publish adjusted speed scores for all downloading tasks. Our current system does not allow us to retrieve all trace files in large-scale testing. </p>
 
             
         </div>
